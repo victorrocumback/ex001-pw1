@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Cadastro</h1>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2 class="sub-titulo">Dados Pessoais</h2>
+            <hr>
+            <form action="#" autocomplete="off" method="post">
+                <div class="campo__nome">
+                    <label class="campo__750" for="name">Nome</label><br>
+                    <input class="campo__750" type="text" name="" id="name" placeholder="Seu Nome">
+                </div>
+                <div class="campo">
+                    <label class="" for="date">Data Nascimento</label><br>
+                    <input class="campo__300" type="date" name="" id="date" value="2023-02-27">
+                </div>
+                <div class="campo">
+                    <label for="civil">Estado Civil</label><br>
+                    <select class="campo__350 name="" id="civil">
+                        <option value="solteiro">Solteiro(a)</option>
+                        <option value="casado">Casado(a)</option>
+                        <option value="separado">Separado(a)</option>
+                        <option value="divorciado">Divorciado(a)</option>
+                        <option value="viuvo">Viúvo</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="cpf">CPF</label><br>
+                    <input class="campo__300" type="number" name="" id="cpf" maxlength="11" placeholder="000.000.000-00">
+                </div>
+                <div class="campo">
+                    <label for="tel">Telefone</label><br>
+                    <input type="number" name="" id="tel" maxlength="11" placeholder="(11)99999-9999">
+                    <input type="number" name="" id="tel" maxlength="11" placeholder="(11)99999-9999">
+                </div>
+                <div class="campo__email">
+                    <label class="campo__750" for="email">Email</label><br>
+                    <input class="campo__750" type="email" name="" id="email" placeholder="example@gmail.com">
+                </div>
+            </form>
+        </section>
+        <section class="container">
+            <h2 class="sub-titulo">Escolaridade</h2>
+            <hr>
+            <form action="#" autocomplete="off">
+                <div class="campo">
+                    <label for="nivel">Nível</label><br>
+                    <select class="campo__350" name="" id="nivel">
+                        <option value="medio">Ensino Médio</option>
+                        <option value="tecnico">Ensino Técnico</option>
+                        <option value="superior">Ensino Superior</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="escola">Escola / Instituição</label><br>
+                    <input class="campo__350" type="text" name="" id="escola" placeholder="ETEC de Itanhaém">
+                </div>
+                <div class="campo">
+                    <label for="inicio">Data de Início</label><br>
+                    <input class="campo__350" type="date" name="" id="inicio" value="2023-02-27">
+                </div>
+                <div class="campo">
+                    <label for="conclusao">Data de Conclusão</label><br>
+                    <input class="campo__350" type="date" name="" id="conclusao" value="2023-02-27">
+                </div>
+            </form>
+        </section>
+        <section class="container">
+            <h2 class="sub-titulo">Habilidades</h2>
+            <hr>
+            <form class="" action="#">
+                <label for="win3.1">Windows 3.1</label>
+                <input type="checkbox" name="" id="win3.1">
+                <label for="win98">Windows 98</label>
+                <input type="checkbox" name="" id="win98">
+                <label for="linux">Linux</label>
+                <input type="checkbox" name="" id="linux">
+                <label for="css">CSS</label>
+                <input type="checkbox" name="" id="css" checked>
+                <label for="boots">Bootstrap</label>
+                <input type="checkbox" name="" id="boots">
+                <label for="html">HTML</label>
+                <input type="checkbox" name="" id="html" checked>
+                <label for="email">Email</label>
+                <input type="checkbox" name="" id="email">
+                <label for="redes">Redes Sociais</label>
+                <input type="checkbox" name="" id="redes">
+                <label for="magic">Mágica</label>
+                <input type="checkbox" name="" id="magic">
+            </form>
+        </section>
+
+        <section class="container">
+            <h2 class="sub-titulo">Experiências</h2>
+            <hr>
+            <h3>Experiência 1</h3>
+            <form action="#" autocomplete="off">
+                <div class="campo">
+                    <label for="cargo">Cargo / Função</label><br>
+                    <input class="campo__350" type="text" name="" id="cargo" placeholder="Júnior">
+                </div>
+                <div class="campo">
+                    <label for="empresa">Empresa</label><br>
+                    <input class="campo__350"  type="text" name="" id="empresa" placeholder="Google">
+                </div>
+                <div class="campo">
+                    <label for="inicio2">Data de Início</label><br>
+                    <input class="campo__350"  type="date" name="" id="inicio2" value="2023-02-27">
+                </div>
+                <div class="campo">
+                    <label for="termino">Data de Término</label><br>
+                    <input class="campo__350"  type="date" name="" id="termino" value="2023-02-27">
+                </div>
+            </form>
+            <br>
+            <hr>
+            <h3>Experiência 2</h3>
+            <form action="#" autocomplete="off">
+                <div class="campo">
+                    <label for="cargo">Cargo / Função</label><br>
+                    <input class="campo__350" type="text" name="" id="cargo" placeholder="Sênior">
+                </div>
+                <div class="campo">
+                    <label for="empresa">Empresa</label><br>
+                    <input class="campo__350" type="text" name="" id="empresa" placeholder="Google">
+                </div>
+                <div class="campo">
+                    <label for="inicio2">Data de Início</label><br>
+                    <input class="campo__350" type="date" name="" id="inicio2" value="2023-02-27">
+                </div>
+                <div class="campo">
+                    <label for="termino">Data de Término</label><br>
+                    <input class="campo__350" type="date" name="" id="termino" value="2023-02-27">
+                </div>
+                <div class="campo">
+                    <input type="button" value="Enviar">
+                </div>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        Desenvolvido por <strong>Victor Rocumback</strong> para aula de Programação Web 1 &copy; 
+    </footer>
+</body>
+</html>

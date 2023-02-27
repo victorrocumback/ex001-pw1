@@ -1,0 +1,116 @@
+@import url(reset.css);
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --cinza: #858585;
+    --cinza2: #F9F9F9;
+    --cinza3: #474646;
+    --laranja: #EB9B00;
+    --azul: #002F52;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+}
+
+*{
+    font-family: sans-serif;
+}
+
+
+/* Cabeçalho */
+
+.cabecalho{
+    color: #fff;
+    background-image: var(--azul-degrade);
+}
+
+.cabecalho__titulo{
+    padding: 15px;
+    padding-left: 140px;
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+/* Dados Pessoais */
+
+.container{
+    width: 800px;
+    margin: auto;
+    padding-bottom: 35px;
+}
+
+.sub-titulo{
+    font-size: 1.5em;
+    padding: 10px 0px;
+    margin-bottom: 12px;
+    color: var(--laranja);
+    text-shadow: 1px 1px 1px #a8a8a8;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+label{
+    display: block;
+    font-weight: 700;
+}
+
+.campo{
+    padding: 15px 0;
+}
+
+.campo__nome{
+    grid-column: span 2;
+}
+
+.campo__750{
+    width: 750px;
+}
+
+.campo__300{
+    width: 300px;
+}
+
+.campo__350{
+    width: 350px;
+}
+
+
+.campo__email{
+    grid-column: span 2;
+}
+
+
+
+/* Escolaridade */
+
+.check{
+    grid-template-columns: 1fr;
+}
+
+/* All */
+
+input, select{
+    border-radius: 5px;
+    height: 25px;
+}
+
+label {
+    color: var(--azul);
+}
+
+h3{
+    color: #326589;
+    font-weight: 700;
+}
+
+footer{
+    text-align: center;
+    background-color: #858585;
+    font-family: sans-serif;
+    color: white;
+    padding: 5px;
+}
